@@ -1,25 +1,16 @@
 {
-  "name": "remotion-animation",
+  "name": "animation-stage",
   "version": "1.0.0",
-  "description": "Remotion animation project",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "remotion studio",
-    "build": "remotion render",
-    "upgrade": "remotion upgrade",
-    "test": "eslint src --ext ts,tsx,js,jsx && tsc"
+    "start": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
-  "dependencies": {
-    "@remotion/cli": "^4.0.0",
-    "react": "^18.0.0",
-    "remotion": "^4.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@types/react": "^18.0.0",
-    "@types/web": "^0.0.111",
-    "@typescript-eslint/eslint-plugin": "^6.0.0",
-    "@typescript-eslint/parser": "^6.0.0",
-    "eslint": "^8.0.0",
-    "prettier": "^3.0.0",
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0",
+    "vite": "^4.0.0"
   }
-} 
+}
